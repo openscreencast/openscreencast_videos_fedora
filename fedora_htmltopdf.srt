@@ -1,0 +1,107 @@
+1
+00:00:05,000 --> 00:00:08,900
+Hallo - Eine HTML-Seite als PDF speichern
+
+2
+00:00:09,000 --> 00:00:11,900
+Dazu moechte ich 2 Moeglichkeiten vorstellen
+
+3
+00:00:12,000 --> 00:00:15,900
+Die erste Moeglichkeit steckt im Browser Firefox selbst
+
+4
+00:00:16,000 --> 00:00:28,900
+OK - HTML-Seite aufrufen - sobald die HTML-Seite vollstaendig geladen wurde
+
+5
+00:00:29,000 --> 00:00:35,900
+kann man nun auf Datei klicken - auf Drucken
+
+6
+00:00:36,000 --> 00:00:41,900
+oder benutzt die Tastenkombination Strg+P
+
+7
+00:00:42,000 --> 00:00:50,900
+jetzt waehlt man in Datei drucken - klickt das Ausgabeformat PDF an
+
+8
+00:00:51,000 --> 00:00:55,900
+waehlt einen Dateinamen bzw. den Speicherort
+
+9
+00:00:56,000 --> 00:01:03,900
+einfach 1.pdf (Bsp.) in den Ordner Dokumente
+
+10
+00:01:04,000 --> 00:01:14,900
+und man kann unter Seite einrichten und Optionen noch spezielle Einstellungen durchfuehren
+
+11
+00:01:15,000 --> 00:01:20,900
+Abschliessend betaetigt man den Button Drucken
+
+12
+00:01:21,000 --> 00:01:31,900
+OK - das Tool htmldoc ist die 2. Moeglichkeit um html in pdf umzuwandeln
+
+13
+00:01:32,000 --> 00:01:36,900
+Die Installation per Befehl laeuft wie folgt - Ich oeffne ein Terminal
+
+14
+00:01:37,000 --> 00:01:52,900
+und gebe ein su -c "yum install htmldoc" ENTER - Passwort eingeben
+
+15
+00:01:53,000 --> 00:01:58,900
+und warten bis die Pakete installiert sind
+
+16
+00:02:05,000 --> 00:02:09,900
+OK - Installation komplett
+
+17
+00:02:10,000 --> 00:02:16,900
+Jetzt startet man das Tool mit htmldoc
+
+18
+00:02:17,000 --> 00:02:31,900
+so - die HTML-Seite (URL eingeben) waehlen - jetzt klickt man an Web Page
+
+19
+00:02:32,000 --> 00:02:43,900
+nun Output - waehlt die Ausgabedatei - 2.pdf als Beispiel
+
+20
+00:02:44,000 --> 00:02:54,900
+OK - jetzt nur noch den Button Generate druecken - dann wird die PDF erzeugt
+
+21
+00:03:08,000 --> 00:03:24,900
+OK - als Ergaenzung: die Website www.web2pdfconvert.com ist ebenso eine Option
+
+22
+00:03:25,000 --> 00:03:33,900
+einfach die URL eingeben und dann den Button Convert to benutzen
+
+23
+00:03:34,000 --> 00:03:46,900
+warten bis die PDF-Datei erzeugt wurde und dann kann man auf den Link Download PDF File klicken
+
+24
+00:03:47,000 --> 00:03:57,900
+Ziel speichern unter - Dokumente - Speichern - und Fertig
+
+25
+00:03:58,000 --> 00:04:03,900
+Jetzt muessten 3 PDF-Dokumente im Ordner Dokumente sein
+
+26
+00:04:04,000 --> 00:04:09,900
+Genau - einfach anklicken zum Anschauen
+
+27
+00:04:15,000 --> 00:04:19,900
+Tschau und viel Glueck

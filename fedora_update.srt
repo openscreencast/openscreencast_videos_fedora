@@ -1,0 +1,43 @@
+1
+00:00:05,000 --> 00:00:07,900
+Hallo - In diesem Screencast ein kleiner Tipp
+
+2
+00:00:08,000 --> 00:00:11,900
+Wie aktualisiert man sein Fedora 15 Betriebssystem
+
+3
+00:00:12,000 --> 00:00:20,900
+Man klickt auf Aktivitaeten - Anwendungen - Systemwerkzeuge - Software-Aktualisierungen
+
+4
+00:00:21,000 --> 00:00:29,900
+Wenn Update-Pakete verfuegbar sind dann klickt man auf den Button Aktualisierungen installieren
+
+5
+00:00:30,000 --> 00:00:33,900
+und wartet bis die Pakete installiert wurden
+
+6
+00:00:34,000 --> 00:00:48,900
+Das Programm kann man auch starten per Befehl gpk-update-viewer
+
+7
+00:00:49,000 --> 00:00:52,900
+oder man macht das gleich alles im Terminal
+
+8
+00:00:53,000 --> 00:01:06,900
+Ob Updates verfuegbar sind bekommt man heraus per Befehl yum check-update
+
+9
+00:01:07,000 --> 00:01:25,900
+Und installieren kann man die Updates mit dem Befehl su -c "yum update"
+
+10
+00:01:26,000 --> 00:01:37,900
+Passwort eingeben, Bestaetigen - j, und warten bis die Updates installiert wurden
+
+11
+00:01:42,000 --> 00:01:44,900
+Tschau und viel Glueck
