@@ -1,0 +1,99 @@
+1
+00:00:01,000 --> 00:00:08,500
+Hallo, Updates mit anderen Worten die Aktualisierung vorhandener Programme ist sehr wichtig
+
+2
+00:00:09,000 --> 00:00:12,500
+nicht nur um die neusten Funktionen begutachten zu können sondern auch für die Sicherheit
+
+3
+00:00:13,000 --> 00:00:18,500
+Deswegen sollte man jeden Tag nach neuen Updates Ausschau halten und sicherheitsbetreffende Pakete
+
+4
+00:00:19,000 --> 00:00:21,500
+sobald wie nur möglich in System einspielen
+
+5
+00:00:22,000 --> 00:00:27,500
+In der Konsole sind folgende Update-Kommandos bei Fedora anzutreffen
+
+6
+00:00:28,000 --> 00:00:33,500
+Ich klicke auf Anwendungen - Zubehör, klicke auf Terminal
+
+7
+00:00:34,000 --> 00:00:52,500
+Auskunft darüber ob es Updates gibt und welche Pakete dies betrifft erhalte ich nach dem Befehl yum check-update ENTER
+
+8
+00:00:53,000 --> 00:00:57,500
+Um neue Versionen einzuspielen brauche ich Administratorrechte
+
+9
+00:00:58,000 --> 00:01:06,500
+Ich tippe also ein su ENTER, gebe das Admin-Passwort ein ENTER
+
+10
+00:01:07,000 --> 00:01:20,500
+Anweisung yum update Paketname ENTER aktualisiert ein bestimmtes Paket
+
+11
+00:01:21,000 --> 00:01:29,500
+Alle verfügbaren Updates werden mit yum update ENTER eingespielt
+
+12
+00:01:30,000 --> 00:01:42,500
+Kommando yum groupupdate Programmgruppe ENTER aktualisiert die vorgegebene Programmgruppe
+
+13
+00:01:43,000 --> 00:01:50,500
+exit ENTER, so werde ich meine Adminrechte wieder los
+
+14
+00:01:51,000 --> 00:02:01,500
+Eine grafische Oberfläche für Updates ist unter Anwendungen - Systemwerkzeuge - Software-Updater angesiedelt
+
+15
+00:02:02,000 --> 00:02:09,500
+Ein Start ist auch durch den Konsolenbefehl pup ENTER realisierbar
+
+16
+00:02:10,000 --> 00:02:16,500
+Man gibt das Admin-Passwort ein, OK
+
+17
+00:02:17,000 --> 00:02:24,500
+und sieht alle verfügbaren Updates in einer Liste
+
+18
+00:02:25,000 --> 00:02:30,500
+Soll ein Update nicht eingespielt werden nimmt man dort das Häkchen vorne weg
+
+19
+00:02:31,000 --> 00:02:36,500
+Anschließend benutzt man den Button Updates anwenden
+
+20
+00:02:37,000 --> 00:02:47,500
+Noch zu erwähnen wäre das normalerweise kürzlich nach dem Anmelden automatisch geprüft wird ob Updates vorliegen
+
+21
+00:02:48,000 --> 00:02:55,500
+Wenn ja erscheint rechts oben, das wäre dies hier, eine Meldung auf die man sofort reagieren kann
+
+22
+00:02:56,000 --> 00:03:06,500
+Soll es keine Meldung geben, klickt man auf System - Einstellungen - Weitere Präferenzen, klickt auf Sitzungen
+
+23
+00:03:07,000 --> 00:03:15,500
+geht zum Reiter Startprogramme, klickt auf /usr/bin/puplet
+
+24
+00:03:16,000 --> 00:03:25,500
+und benutzt anschließend den Button Deaktivieren und klickt abschließend auf den Button Schließen
+
+25
+00:03:26,000 --> 00:03:34,500
+Viel Spaß beim Ausprobieren, bis zum nächsten Mal

@@ -1,0 +1,59 @@
+1
+00:00:01,000 --> 00:00:08,500
+Hallo, um Programme zu installieren zu deinstallieren gibt es bei Fedora Core das Programm pirut
+
+2
+00:00:09,000 --> 00:00:12,500
+zu finden unter Anwendungen - Software hinzufügen/entfernen
+
+3
+00:00:13,000 --> 00:00:15,000
+oder man führt den Befehl pirut aus
+
+4
+00:00:15,500 --> 00:00:19,500
+oder in der Kommandozeile gibt es auch den Befehl yum
+
+5
+00:00:20,000 --> 00:00:27,500
+ein anderes Programm das man für die Paketverwaltung nutzen kann wäre das Programm yumex
+
+6
+00:00:28,000 --> 00:00:33,500
+yumex muss erst nachinstalliert werden, also klickt man auf Anwendungen - Software hinzufügen/entfernen
+
+7
+00:00:34,000 --> 00:00:38,500
+gibt das Admin-Passwort ein, klickt auf den Button OK
+
+8
+00:00:39,000 --> 00:00:48,500
+geht auf den Reiter Durchsuchen, klickt auf Grundsystem, auf Verwaltungswerkzeuge
+
+9
+00:00:49,000 --> 00:00:55,500
+klickt auf den Button Optional Pakete, klickt ganz unten das Paket yumex an
+
+10
+00:00:56,000 --> 00:00:59,000
+setzt ein Häckchen, geht auf den Button Schließen
+
+11
+00:00:59,500 --> 00:01:07,000
+Anschließend auf Anwenden und Weiter, jetzt wird das Paket heruntergeladen und installiert
+
+12
+00:01:07,500 --> 00:01:20,000
+Das Programm ist jetzt zu finden unter Anwendungen - Systemwerkzeuge - Yum Extender
+
+13
+00:01:20,500 --> 00:01:25,000
+oder man führt den Befehl yumex aus
+
+14
+00:01:25,500 --> 00:01:32,000
+gibt wie auch bei pirut das Admin-Passwort ein, OK
+
+15
+00:01:32,500 --> 00:01:38,000
+nochmal OK, und das ist das Programm yumex

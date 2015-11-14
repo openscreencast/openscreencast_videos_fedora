@@ -1,0 +1,147 @@
+1
+00:00:01,000 --> 00:00:08,500
+Hallo, ich grüsse alle, Programme unter Linux zu installieren kann ein sehr mühsamer Weg sein
+
+2
+00:00:09,000 --> 00:00:13,500
+Konsolentool yum, das eigentlich für Distribution Yellow Dog entwickelt wurde
+
+3
+00:00:14,000 --> 00:00:20,500
+greift dem Benutzer unter die Arme wenn es heisst RPM-Pakete zu installieren, zu verwalten oder zu deinstallieren
+
+4
+00:00:21,000 --> 00:00:25,500
+Yum ist eine Abkürzung für Yellowdog Updater Modified
+
+5
+00:00:26,000 --> 00:00:31,500
+Pirut, yumex und kyum bei Fedora sind bekannte grafische Oberflächen
+
+6
+00:00:32,000 --> 00:00:37,500
+die das Tool yum kleiden und so noch einen weiteren Kick Benutzerfreundlichkeit verpassen
+
+7
+00:00:38,000 --> 00:00:48,500
+Jetzt zur Anwendung. Ich starte ein Terminal, klicke auf Anwendungen, wandere zum Menü Zubehör und klicke auf Terminal
+
+8
+00:00:49,000 --> 00:00:53,500
+Voraussetzung für Veränderungsanweisungen sind Administratorrechte
+
+9
+00:00:54,000 --> 00:01:04,500
+Ich tippe also ein su ENTER und verrate dem System das Administrator-Passwort, ENTER
+
+10
+00:01:05,000 --> 00:01:20,500
+Erläuterungen welche Funktionen yum aufweist kann man sich durchlesen nach der Eingabe man yum ENTER oder info yum ENTER
+
+11
+00:01:21,000 --> 00:01:24,500
+Taste Q lässt die Hilfeseiten wieder verschwinden
+
+12
+00:01:25,000 --> 00:01:35,500
+Kommando yum --help ENTER beschafft eine kurze Hilfe
+
+13
+00:01:36,000 --> 00:01:46,500
+Der 1. Befehl leitet die Installation eines Paketes ein, insofern es in einer der bekannten Repositories, Paketquellen, verfügbar ist
+
+14
+00:01:47,000 --> 00:02:02,500
+Ich tippe ein yum install liferea ENTER (liferea = Paketname, liferea Abkürzung für Linux Feed Reader)
+
+15
+00:02:03,000 --> 00:02:06,500
+Weitere Pakete können nach einem Leerzeichen angegeben werden
+
+16
+00:02:07,000 --> 00:02:12,500
+Sofort erkundigt sich yum ob das Paket vorhanden ist und in welchem Repository
+
+17
+00:02:13,000 --> 00:02:14,500
+bestehen irgendwelche Abhängigkeiten ?
+
+18
+00:02:15,000 --> 00:02:20,500
+Das Paket wird heruntergeladen und alle Pakete die notwendig sind ebenfalls und werden installiert
+
+19
+00:02:21,000 --> 00:02:23,500
+y ENTER, ja ich möchte
+
+20
+00:02:24,000 --> 00:02:31,500
+Durch Option -y werden alle Fragen automatisch mit Ja beantwortet
+
+21
+00:02:32,000 --> 00:02:44,500
+yum groupinstall Gruppenname ENTER installiert gleich eine ganze Programmgruppe
+
+22
+00:02:45,000 --> 00:02:57,500
+Eine Liste welche Gruppen es gibt und welche schon installiert sind erstellt mir der Befehl yum grouplist ENTER
+
+23
+00:02:58,000 --> 00:03:22,500
+Kommando yum check-update ENTER informiert darüber für welche Pakete neue Versionen bereitstehen
+
+24
+00:03:23,000 --> 00:03:41,500
+Anweisung yum update Paketname ENTER aktualisiert das Paket sollte eine neue Version abrufbar sein
+
+25
+00:03:42,000 --> 00:03:52,500
+Befehl yum update ENTER aktualisiert alle Pakete auf dem System
+
+26
+00:03:53,000 --> 00:04:03,500
+ausgeklammert wird ein Paket durch Option --exclude=Paketname
+
+27
+00:04:04,000 --> 00:04:27,500
+Infohinweise können durch Kommando yum info Paketname ENTER gelesen werden (Bsp. liferea)
+
+28
+00:04:28,000 --> 00:04:42,500
+Die Suche nach einem bestimmten Wort in den Paketen wird durch Anweisung yum search Suchwort ENTER veranlasst
+
+29
+00:04:43,000 --> 00:05:11,500
+Bsp. yum search FeedReader ENTER (Ergebnis: Paket liferea)
+
+30
+00:05:12,000 --> 00:05:29,500
+yum list ENTER listet alle vorrätigen Pakete auf
+
+31
+00:05:30,000 --> 00:05:42,500
+Ein Paket vorerst wieder aus dem System zu verbannen verursacht Befehl yum remove Paketname ENTER
+
+32
+00:05:43,000 --> 00:06:00,500
+Bsp. yum remove liferea ENTER, y ENTER, ja ich möchte
+
+33
+00:06:01,000 --> 00:06:04,500
+und gelöscht ist das Programm
+
+34
+00:06:05,000 --> 00:06:20,500
+Übrigens für Programmgruppen gibt es auch yum groupupdate Programmgruppe ENTER zum Aktualisieren
+
+35
+00:06:21,000 --> 00:06:31,500
+und yum groupremove Programmgruppe ENTER zum löschen
+
+36
+00:06:32,000 --> 00:06:39,500
+exit ENTER entfernt die Administratorrechte wieder
+
+37
+00:06:40,000 --> 00:06:47,500
+Dann viel Spaß beim Anwenden, Tschau
